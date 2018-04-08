@@ -131,7 +131,7 @@ public class Bundle implements Comparable<Bundle> {
                     //this.getTransactions().get(0).setObsoleteTag(Converter.trytes(obsoleteTagTrits));
                 //}
             //}
-          valid = !foundValue;
+          //valid = !foundValue;
 
         } while (!valid);
 
