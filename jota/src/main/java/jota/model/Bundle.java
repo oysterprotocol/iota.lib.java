@@ -122,15 +122,15 @@ public class Bundle implements Comparable<Bundle> {
           hashInTrytes = Converter.trytes(hash);
           normalizedBundleValue = normalizedBundle(hashInTrytes);
 
-          boolean foundValue = false;
-            for (int aNormalizedBundleValue : normalizedBundleValue) {
-                if (aNormalizedBundleValue == 13) {
-                    foundValue = true;
-                    obsoleteTagTrits = Converter.trits(this.getTransactions().get(0).getObsoleteTag());
-                    Converter.increment(obsoleteTagTrits, 81);
-                    this.getTransactions().get(0).setObsoleteTag(Converter.trytes(obsoleteTagTrits));
-                }
-            }
+          //boolean foundValue = false;
+            //for (int aNormalizedBundleValue : normalizedBundleValue) {
+                //if (aNormalizedBundleValue == 13) {
+                    //foundValue = true;
+                    //obsoleteTagTrits = Converter.trits(this.getTransactions().get(0).getObsoleteTag());
+                    //Converter.increment(obsoleteTagTrits, 81);
+                    //this.getTransactions().get(0).setObsoleteTag(Converter.trytes(obsoleteTagTrits));
+                //}
+            //}
           valid = !foundValue;
 
         } while (!valid);
