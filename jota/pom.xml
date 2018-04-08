@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.iota</groupId>
+        <groupId>oyster.iota.lib.java</groupId>
         <artifactId>jota-parent</artifactId>
         <version>0.9.11-SNAPSHOT</version>
     </parent>
