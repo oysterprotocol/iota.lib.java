@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>oyster.iota.lib.java</groupId>
+        <groupId>org.iota</groupId>
         <artifactId>jota-parent</artifactId>
-        <version>0.9.12-SNAPSHOT</version>
+        <version>0.9.11-for-coordinator</version>
     </parent>
 
     <name>JOTA : Library</name>
